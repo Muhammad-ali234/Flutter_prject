@@ -3,6 +3,8 @@ import 'package:flutter_application_1/pages/home_page.dart';
 import 'package:flutter_application_1/pages/login_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// Add this commnet to test git repo on github.
+
 void main() {
   runApp(const MyApp());
 }
