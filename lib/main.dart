@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.black,
               ),
               titleTextStyle: TextStyle(color: Colors.black))),
-      initialRoute: '/home',
+      //initialRoute: '/',
       routes: {
         '/': (context) => LoginPage(),
         '/home': (context) => HomePage(),

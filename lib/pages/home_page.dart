@@ -7,17 +7,21 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(
-          'Catalog App',
-          textScaleFactor: 1.3,
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text(
+            'Catalog App',
+            textScaleFactor: 1.3,
+          ),
         ),
-      ),
-      drawer: MyDrawer(),
-      body: Center(
-        child: Text('Welcome to 30 days of flutter'),
-      ),
-    );
+        drawer: MyDrawer(),
+        body: TabBarView(
+          children: const [
+            Text('Text'),
+            Text('Text1'),
+            Text('Text2'),
+            Text('Text3'),
+          ],
+        ));
   }
 }
